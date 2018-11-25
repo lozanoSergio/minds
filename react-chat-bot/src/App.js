@@ -27,6 +27,8 @@ class App extends Component {
         conversation: [...this.state.conversation, msg],
       });
     });
+
+    channel.unsubscribe('bot');
   }
 
   handleChange = event => {

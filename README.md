@@ -8,10 +8,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 If you download this project don't forget to add your own variables.env file with this enviroment variables at minimum:
   PORT=5000
-  PUSHER_APP_ID=<your app id>
-  PUSHER_APP_KEY=<your app key>
-  PUSHER_APP_SECRET=<your app secret>
-  PUSHER_APP_CLUSTER=<your app cluster>
+  PUSHER_APP_ID= '<your app id>'
+  PUSHER_APP_KEY= '<your app key>'
+  PUSHER_APP_SECRET= '<your app secret>'
+  PUSHER_APP_CLUSTER= '<your app cluster>'
   DIALOGFLOW_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n<KEY>\n-----END PRIVATE KEY-----\n"
   DIALOGFLOW_CLIENT_EMAIL=foo@<PROJECT_ID>.iam.gserviceaccount.com
 
